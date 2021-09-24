@@ -7,7 +7,6 @@
             /** JS Code **/
         </script>
         
-
         <style>
             /** Presentation Logic**/
             #container{
@@ -15,10 +14,16 @@
                 flex-wrap: wrap;
                 width: 98%;
                 margin: auto;
+                white-space: pre-wrap;
+            }
+            br{
+                margin: 10px;
+                content: "";
+                line-height: 30%;
             }
             header{
                 width: 96%;
-                height: 175px;
+                height: 9vw;
                 border-radius: 12px;
                 border: 12px solid indianred;
                 background-color: rgba(231, 185, 69, 0.924);
@@ -26,30 +31,31 @@
 
                 color: rgba(42, 90, 224, 0.972); 
                 font-family: 'Helvetica Neue', sans-serif; 
-                font-size: 80px; 
+                font-size: 6vw; 
                 font-weight: bolder; 
                 text-align: center;
                 vertical-align: middle;
-                line-height: 165px;
+                white-space: pre-wrap;
             }
             .middleboxes{
                 background-color: rgba(231, 185, 69, 0.924);
                 width: 410px;
-                height: 500px;
+                height: 60vh + 8vw;
                 border-radius: 12px;
                 border: 12px solid indianred;
                 flex-grow: 1;
                 flex-shrink: 0;
-                flex-basis: 410px;
+                flex-basis: 400px;
                 margin: 1%;
                 white-space: pre-wrap;
+                font-size: 17px;
 
             }
             footer{
                 display: flex;
                 background-color: rgba(0, 0, 128, 0.797);
                 width: 98%;
-                height: 200px;
+                height: 20vw + 5vh;
                 border-radius: 7px;
                 border: 2px solid navy;
                 clear: both;
@@ -60,7 +66,7 @@
                 background-color: rgba(231, 185, 69, 0.924);
                 width: 150px;
                 margin: 1%;
-                height: 150px;
+                height: 20vw + 5vh;
                 flex-grow: 1;
                 flex-shrink: 0;
             }
@@ -74,10 +80,54 @@
 1) Coinbase
 2) CoinMarketCap
 3) Binance
-            </section>
-            <section class="middleboxes">Address the following in this section:</section>
+            <br>
+<span style="color:rgb(213, 53, 53); font-weight: bold;">Insight/Information Provided to User:</span>
+1) Current price, market cap, and supply of cryptocurrencies
+2) Trending cryptocurrencies (biggest gainers and losers)
+3) Charting information
+            <br>
+<span style="color:rgb(213, 53, 53); font-weight: bold;">User Information to Collect:</span>
+1) Email
+2) Cryptocurrency interests
+3) Location data
+            <br>
+<span style="color:rgb(213, 53, 53); font-weight: bold;">Entities/Tables and Respective Attributes:</span>
+            <span style="font-size: 14px;"> 1) ADMIN_USER -> USERNAME, PASSWORD, ADMIN_ID, EMAIL, DOB, PHONE_NUMBER
+2) END_USER_TRADER -> USERNAME, PASSWORD, EMAIL, DOB, PHONE_NUMBER, BALANCE
+3) END_USER_OBSERVER -> USERNAME, PASSWORD, EMAIL, DOB, PHONE_NUMBER
+</span>
+</section>
+            <section class="middleboxes"><span style="color:rgb(213, 53, 53); font-weight: bold;">Potential Users:</span>
+1) People of all ages interested in learning about cryptocurrency
+2) People who want to trade cryptocurrency without spending money
+3) People who want cryptocurrency-trading practice
+                <br>
+<span style="color:rgb(213, 53, 53); font-weight: bold;">Goals:</span>
+1) Help people learn how to trade cryptocurrencies for free
+2) Provide cyrptocurrency information tailored to users' needs
+3) Collect user data
+                <br>
+<span style="color:rgb(213, 53, 53); font-weight: bold;">Why?</span>
+I am very interested in becoming a better crytpocurrency trader without losing money in the process. I also know many people who want to learn how to trade cryptocurrency, but the risk of losing money is too high. I am hoping that using my cryptocurrency-trading simulator will help people gain skills to make profits in the long run.
+                </section>
+                
             <footer>
-                <div class="footer_box"></div>
+                <div class="footer_box" style="font-size: 18px;">
+<span style="color:rgb(213, 53, 53); font-weight: bold;">API Links:</span>
+<a href="https://developers.coinbase.com/" target="_blank" rel="noopener noreferrer">1) Coinbase API</a>
+<a href="https://coinmarketcap.com/api/documentation/v1/#" target="_blank" rel="noopener noreferrer">2) CoinMarketCap API</a>
+<a href="https://binance-docs.github.io/apidocs/spot/en/#introduction" target="_blank" rel="noopener noreferrer">3) Binance API</a><br>
+
+<span style="color:rgb(213, 53, 53); font-weight: bold;">Model Sites:</span>
+<a href="https://cryptospaniards.com/simulator/" target="_blank" rel="noopener noreferrer">1) Cryptospaniards</a>
+<a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">2) CoinMarketCap</a>
+<a href="https://testnet.phemex.com/" target="_blank" rel="noopener noreferrer">3) Phemex Testnet</a>
+
+<span style="color:rgb(213, 53, 53); font-weight: bold;">Helpful Resources:</span>
+<a href="https://cryptospaniards.com/simulator/" target="_blank" rel="noopener noreferrer">1) Cryptospaniards</a>
+<a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">2) CoinMarketCap</a>
+<a href="https://testnet.phemex.com/" target="_blank" rel="noopener noreferrer">3) Phemex Testnet</a>
+                </div>
                 <div class="footer_box"></div>
                 <div class="footer_box"></div>
             </footer>
