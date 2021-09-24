@@ -71,7 +71,7 @@
                 flex-shrink: 0;
             }
 
-            @media screen and (max-width: 1024px) {
+            @media screen and (max-width: 1025px) {
                 header{
                 width: 96%;
                 height: 9vw;
@@ -89,7 +89,7 @@
                 white-space: pre-wrap;
                 }
                 .middleboxes{
-                    background-color: rgba(231, 185, 69, 0.924);
+                    background-color: burlywood;
                     width: 410px;
                     height: 60vh + 8vw;
                     border-radius: 12px;
@@ -101,23 +101,81 @@
                     white-space: pre-wrap;
                     font-size: 17px;
                 }
+                footer{
+                display: flex;
+                background-color: indianred;
+                width: 98%;
+                height: 20vw + 5vh;
+                border-radius: 7px;
+                border: 2px solid navy;
+                clear: both;
+                margin: auto;
+            }
+                .footer_box{
+                flex: 1 0 100px;
+                background-color: burlywood;
+                width: 150px;
+                margin: 1%;
+                height: 20vw + 5vh;
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
                 
             }
-            /*
-            @media screen and (max-width: 768px) {
+            
+            @media screen and (max-width: 650px) {
                 header{
-                    background-color: #eeff22;
-                }
-            }
-            @media screen and (max-width: 480px) {
-                header{
-                    background-color: #ffee00;
-                }
-            }
-            */
+                width: 96%;
+                height: 9vw;
+                border-radius: 12px;
+                border: 12px solid burlywood;
+                background-color: seagreen;
+                margin: auto;
 
+                color: olive; 
+                font-family: 'Helvetica Neue', sans-serif; 
+                font-size: 6vw; 
+                font-weight: bolder; 
+                text-align: center;
+                vertical-align: middle;
+                white-space: pre-wrap;
+                }
+                .middleboxes{
+                    background-color: lightcyan;
+                    width: 410px;
+                    height: 60vh + 8vw;
+                    border-radius: 12px;
+                    border: 12px solid burlywood;
+                    flex-grow: 1;
+                    flex-shrink: 0;
+                    flex-basis: 400px;
+                    margin: 1%;
+                    white-space: pre-wrap;
+                    font-size: 17px;
+                    color: firebrick;
+                }
+                footer{
+                display: flex;
+                background-color: indianred;
+                width: 98%;
+                height: 20vw + 5vh;
+                border-radius: 7px;
+                border: 2px solid navy;
+                clear: both;
+                margin: auto;
+                }
+                .footer_box{
+                flex: 1 0 100px;
+                background-color: indianred;
+                color: burlywood;
+                width: 150px;
+                margin: 1%;
+                height: 20vw + 5vh;
+                flex-grow: 1;
+                flex-shrink: 0;
+                }
+            }
         </style>
-
     </head>
     <body style="background-color:rgba(42, 90, 224, 0.972); text-align:center">
         <div id="container">
@@ -174,7 +232,7 @@ I am very interested in becoming a better crytpocurrency trader without losing m
 <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">2) CoinMarketCap</a>
 <a href="https://testnet.phemex.com/" target="_blank" rel="noopener noreferrer">3) Phemex Testnet</a>
                 </div>
-                <div class="footer_box" style="color: rgba(0, 0, 128, 0.797);">
+                <div class="footer_box">
 <span style="color:rgb(213, 53, 53); font-weight: bold;">Questions/Concerns:</span>
 
     - Are we required to have a domain name?
