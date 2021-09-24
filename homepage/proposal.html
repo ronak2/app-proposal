@@ -244,16 +244,18 @@ I am very interested in becoming a better crytpocurrency trader without losing m
                 </div>
                 <div class="footer_box">
 <span style="color:rgb(213, 53, 53); font-weight: bold;">Accessibility:</span>
-<script>
-document.getElementById('text_small').addEventListener('click', ()=>{
-    document.getElementById('bodytext').style.fontSize = '16px';
-})
-document.getElementById('text_larger').addEventListener('click', ()=>{
-    document.getElementById('bodytext').style.fontSize = '32px';
-})
-</script>
+<div id="text_small">Text Normal</div>
+<div id="text_smaller">Text Small</div>
                 </div>
             </footer>
         </div><!--Closing container-->
+        <script>
+            document.getElementById('text_small').addEventListener('click', ()=>{
+                document.getElementById('bodytext').style.fontSize = '16px';
+            })
+            document.getElementById('text_smaller').addEventListener('click', ()=>{
+                document.getElementById('bodytext').style.fontSize = '12px';
+            })
+        </script>
     </body>
 </html>
