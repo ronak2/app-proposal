@@ -1,13 +1,12 @@
 **Workflow:** Working individually.
-
 **Branching:** Creating a development and production branch.
 
 
 **Name:** Ronak Trivedi
-
 **Responsibility:** Everything.
 
 
 **Development Tools:** Visual Studio Code, Ubuntu/Bash Terminal (Native MacOS), Git/Github
 
-**Website:** 
+
+**Website:** https://uic-cs484.github.io/assignment-1---team-project-proposal-team30/
