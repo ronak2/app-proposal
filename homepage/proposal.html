@@ -180,54 +180,54 @@
     <body id="bodytext" style="background-color:rgba(42, 90, 224, 0.972); text-align:center">
         <div id="container">
             <header>Crypto <span style="color:rgb(213, 53, 53)">Trading</span> Simulator</header>
-            <section class="middleboxes"><span style="color:rgb(213, 53, 53); font-weight: bold;">Potential RESTFul API's:</span>
+            <section id="a" class="middleboxes"><span style="color:rgb(213, 53, 53); font-weight: bold;">Potential RESTFul API's:</span>
 1) Coinbase
 2) CoinMarketCap
 3) Binance
-            <br>
-<span style="color:rgb(213, 53, 53); font-weight: bold;">Insight/Information Provided to User:</span>
+            <br id="nine">
+<span id="ten" style="color:rgb(213, 53, 53); font-weight: bold;">Insight/Information Provided to User:</span>
 1) Current price, market cap, and supply of cryptocurrencies
 2) Trending cryptocurrencies (biggest gainers and losers)
 3) Charting information
             <br>
-<span style="color:rgb(213, 53, 53); font-weight: bold;">User Information to Collect:</span>
+<span id="c" style="color:rgb(213, 53, 53); font-weight: bold;">User Information to Collect:</span>
 1) Email
 2) Cryptocurrency interests
 3) Location data
             <br>
-<span style="color:rgb(213, 53, 53); font-weight: bold;">Entities/Tables and Respective Attributes:</span>
+<span id="d" style="color:rgb(213, 53, 53); font-weight: bold;">Entities/Tables and Respective Attributes:</span>
             <span style="font-size: 14px;"> 1) ADMIN_USER -> USERNAME, PASSWORD, ADMIN_ID, EMAIL, DOB, PHONE_NUMBER
 2) END_USER_TRADER -> USERNAME, PASSWORD, EMAIL, DOB, PHONE_NUMBER, BALANCE
 3) END_USER_OBSERVER -> USERNAME, PASSWORD, EMAIL, DOB, PHONE_NUMBER
 </span>
 </section>
-            <section class="middleboxes"><span style="color:rgb(213, 53, 53); font-weight: bold;">Potential Users:</span>
+            <section id="one" class="middleboxes"><span style="color:rgb(213, 53, 53); font-weight: bold;">Potential Users:</span>
 1) People of all ages interested in learning about cryptocurrency
 2) People who want to trade cryptocurrency without spending money
 3) People who want cryptocurrency-trading practice
                 <br>
-<span style="color:rgb(213, 53, 53); font-weight: bold;">Goals:</span>
+<span id="two" style="color:rgb(213, 53, 53); font-weight: bold;">Goals:</span>
 1) Help people learn how to trade cryptocurrencies for free
 2) Provide cyrptocurrency information tailored to users' needs
 3) Collect user data
                 <br>
-<span style="color:rgb(213, 53, 53); font-weight: bold;">Why?</span>
+<span id="three" style="color:rgb(213, 53, 53); font-weight: bold;">Why?</span>
 I am very interested in becoming a better crytpocurrency trader without losing money in the process. I also know many people who want to learn how to trade cryptocurrency, but the risk of losing money is too high. I am hoping that using my cryptocurrency-trading simulator will help people gain skills to make profits in the long run.
                 </section>
                 
-            <footer style="font-size: 18px;">
+            <footer id="mrfoot" style="font-size: 18px;">
                 <div class="footer_box">
-<span style="color:rgb(213, 53, 53); font-weight: bold;">API Links:</span>
+<span id="four" style="color:rgb(213, 53, 53); font-weight: bold;">API Links:</span>
 <a href="https://developers.coinbase.com/" target="_blank" rel="noopener noreferrer">1) Coinbase API</a>
 <a href="https://coinmarketcap.com/api/documentation/v1/#" target="_blank" rel="noopener noreferrer">2) CoinMarketCap API</a>
 <a href="https://binance-docs.github.io/apidocs/spot/en/#introduction" target="_blank" rel="noopener noreferrer">3) Binance API</a><br>
 
-<span style="color:rgb(213, 53, 53); font-weight: bold;">Model Sites:</span>
+<span id="five" style="color:rgb(213, 53, 53); font-weight: bold;">Model Sites:</span>
 <a href="https://cryptospaniards.com/simulator/" target="_blank" rel="noopener noreferrer">1) Cryptospaniards</a>
 <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">2) CoinMarketCap</a>
 <a href="https://testnet.phemex.com/" target="_blank" rel="noopener noreferrer">3) Phemex Testnet</a>
 
-<span style="color:rgb(213, 53, 53); font-weight: bold;">Helpful Resources:</span>
+<span id="six" style="color:rgb(213, 53, 53); font-weight: bold;">Helpful Resources:</span>
 <a href="https://cryptospaniards.com/simulator/" target="_blank" rel="noopener noreferrer">1) Cryptospaniards</a>
 <a href="https://coinmarketcap.com/" target="_blank" rel="noopener noreferrer">2) CoinMarketCap</a>
 <a href="https://testnet.phemex.com/" target="_blank" rel="noopener noreferrer">3) Phemex Testnet</a>
@@ -245,17 +245,41 @@ I am very interested in becoming a better crytpocurrency trader without losing m
                 <div class="footer_box">
 <span style="color:rgb(213, 53, 53); font-weight: bold;">Accessibility:</span>
 
-<div id="text_small">Text Normal</div>
-<div id="text_smaller">Text Small</div>
+<div id="text_small">Text Bigger</div>
+<div id="text_smaller">Text Smaller</div>
                 </div>
             </footer>
         </div><!--Closing container-->
         <script>
             document.getElementById('text_small').addEventListener('click', ()=>{
-                document.getElementById('bodytext').style.fontSize = '16px';
+                document.getElementById('one').style.fontSize = '20px';
+                document.getElementById('two').style.fontSize = '20px';
+                document.getElementById('three').style.fontSize = '20px';
+                document.getElementById('four').style.fontSize = '20px';
+                document.getElementById('mrfoot').style.fontSize = '20px';
+                document.getElementById('seven').style.fontSize = '20px';
+                document.getElementById('eight').style.fontSize = '20px';
+                document.getElementById('nine').style.fontSize = '20px';
+                document.getElementById('ten').style.fontSize = '20px';
+                document.getElementById('a').style.fontSize = '20px';
+                document.getElementById('b').style.fontSize = '20px';
+                document.getElementById('c').style.fontSize = '20px';
+                document.getElementById('d').style.fontSize = '20px';
             })
             document.getElementById('text_smaller').addEventListener('click', ()=>{
-                document.getElementById('bodytext').style.fontSize = '12px';
+                document.getElementById('one').style.fontSize = '10px';
+                document.getElementById('two').style.fontSize = '10px';
+                document.getElementById('three').style.fontSize = '10px';
+                document.getElementById('four').style.fontSize = '10px';
+                document.getElementById('mrfoot').style.fontSize = '10px';
+                document.getElementById('seven').style.fontSize = '10px';
+                document.getElementById('eight').style.fontSize = '10px';
+                document.getElementById('nine').style.fontSize = '10px';
+                document.getElementById('ten').style.fontSize = '10px';
+                document.getElementById('container').style.fontSize = '10px';
+                document.getElementById('b').style.fontSize = '10px';
+                document.getElementById('c').style.fontSize = '10px';
+                document.getElementById('d').style.fontSize = '10px';
             })
         </script>
     </body>
