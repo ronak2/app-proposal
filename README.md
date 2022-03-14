@@ -1,8 +1,4 @@
-**Workflow:** Working individually.\n
-**Branching:** Creating a development and production branch.
-
-
-**Name:** Ronak Trivedi\n
+**Creator:** Ronak Trivedi\n
 **Responsibility:** Everything.
 
 
